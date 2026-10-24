@@ -5,6 +5,22 @@ import { compareGuess } from '@/lib/compare';
 
 export const runtime = 'nodejs';
 
+type PersonSearch = { results?: { name?: string; profile_path?: string | null }[] };
+
+async function actorPortrait(name: string): Promise<string | null> {
+  const apiKey = process.env.TMDB_API_KEY;
+  if (!apiKey || !name || name === 'Desconocido') return null;
+  const url = new URL('https://api.themoviedb.org/3/search/person');
+  url.searchParams.set('query', name);
+  url.searchParams.set('language', 'es-ES');
+  url.searchParams.set('api_key', apiKey);
+  const response = await fetch(url, { cache: 'no-store' });
+  if (!response.ok) return null;
+  const data = (await response.json()) as PersonSearch;
+  const person = (data.results ?? []).find((item) => item.name?.toLocaleLowerCase('es') === name.toLocaleLowerCase('es')) ?? data.results?.[0];
+  return person?.profile_path ? `https://image.tmdb.org/t/p/w342${person.profile_path}` : null;
+}
+
 type TMDBMovieDetails = {
   id: number;
   title?: string;
@@ -75,5 +91,8 @@ export async function POST(request: NextRequest) {
   }
   if (!guess) return NextResponse.json({ error: 'Película no encontrada. Comprueba la conexión con TMDB.' }, { status: 404 });
 
-  return NextResponse.json(compareGuess(guess, dailyMovie(movies)), { headers: { 'Cache-Control': 'no-store' } });
+  const result = compareGuess(guess, dailyMovie(movies));
+  let actor_image_url: string | null = null;
+  try { actor_image_url = await actorPortrait(guess.leadActor); } catch { /* Portraits are optional; keep the guess working. */ }
+  return NextResponse.json({ ...result, actor_image_url }, { headers: { 'Cache-Control': 'no-store' } });
 }
