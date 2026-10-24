@@ -1,0 +1,7 @@
+import type { Movie } from './movies';
+export type Cell = { status:'green'|'yellow'|'red'; arrow?:'↑'|'↓'; label:string };
+export type GuessResult = { id:number; title:string; year:Cell; genres:Cell; director:Cell; country:Cell; runtime:Cell; rating:Cell; leadActor:Cell; saga:Cell; image_url?:string|null; won:boolean };
+const same=(a:string,b:string)=>a.trim().toLocaleLowerCase('es')===b.trim().toLocaleLowerCase('es');
+function scalar(value:number,secret:number):Cell{return {status:value===secret?'green':'red',...(value===secret?{}:{arrow:secret>value?'↑':'↓'}),label:String(value)}}
+function text(value:string,secret:string):Cell{return {status:same(value,secret)?'green':'red',label:value||'—'}}
+export function compareGuess(guess:Movie,secret:Movie):GuessResult {const intersection=guess.genres.filter(g=>secret.genres.some(s=>same(g,s)));return {id:guess.id,title:guess.title,year:scalar(guess.year,secret.year),genres:{status:guess.genres.length===secret.genres.length&&intersection.length===secret.genres.length?'green':intersection.length?'yellow':'red',label:guess.genres.join(', ')||'—'},director:text(guess.director,secret.director),country:text(guess.country,secret.country),runtime:scalar(guess.runtime,secret.runtime),rating:{...scalar(guess.rating,secret.rating),label:guess.rating.toFixed(1)},leadActor:text(guess.leadActor,secret.leadActor),saga:{status:guess.saga===secret.saga?'green':'red',label:guess.saga||'Sin saga'},image_url:guess.image_url??null,won:guess.id===secret.id}}
