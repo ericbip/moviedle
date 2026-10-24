@@ -1,0 +1,334 @@
+[
+  {
+    "id": 238,
+    "title": "El padrino",
+    "year": 1972,
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Francis Ford Coppola",
+    "country": "United States of America",
+    "runtime": 175,
+    "rating": 8.7,
+    "leadActor": "Marlon Brando",
+    "saga": "The Godfather Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+    "id": 240,
+    "title": "El padrino: Parte II",
+    "year": 1974,
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Francis Ford Coppola",
+    "country": "United States of America",
+    "runtime": 202,
+    "rating": 8.6,
+    "leadActor": "Al Pacino",
+    "saga": "The Godfather Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+  },
+  {
+    "id": 550,
+    "title": "El club de la lucha",
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "director": "David Fincher",
+    "country": "United States of America",
+    "runtime": 139,
+    "rating": 8.4,
+    "leadActor": "Edward Norton",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+  },
+  {
+    "id": 155,
+    "title": "El caballero oscuro",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "country": "United States of America",
+    "runtime": 152,
+    "rating": 8.5,
+    "leadActor": "Christian Bale",
+    "saga": "The Dark Knight Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Comedia",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Robert Zemeckis",
+    "country": "United States of America",
+    "runtime": 142,
+    "rating": 8.5,
+    "leadActor": "Tom Hanks",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+  },
+  {
+    "id": 680,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Thriller",
+      "Crimen"
+    ],
+    "director": "Quentin Tarantino",
+    "country": "United States of America",
+    "runtime": 154,
+    "rating": 8.5,
+    "leadActor": "John Travolta",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfb.jpg"
+  },
+  {
+    "id": 27205,
+    "title": "Origen",
+    "year": 2010,
+    "genres": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "director": "Christopher Nolan",
+    "country": "United States of America",
+    "runtime": 148,
+    "rating": 8.4,
+    "leadActor": "Leonardo DiCaprio",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg"
+  },
+  {
+    "id": 603,
+    "title": "Matrix",
+    "year": 1999,
+    "genres": [
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "director": "Lana Wachowski",
+    "country": "United States of America",
+    "runtime": 136,
+    "rating": 8.2,
+    "leadActor": "Keanu Reeves",
+    "saga": "The Matrix Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "id": 11,
+    "title": "La guerra de las galaxias",
+    "year": 1977,
+    "genres": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "director": "George Lucas",
+    "country": "United States of America",
+    "runtime": 121,
+    "rating": 8.2,
+    "leadActor": "Mark Hamill",
+    "saga": "Star Wars Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+  },
+  {
+    "id": 122,
+    "title": "El señor de los anillos: El retorno del rey",
+    "year": 2003,
+    "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "country": "New Zealand",
+    "runtime": 201,
+    "rating": 8.5,
+    "leadActor": "Elijah Wood",
+    "saga": "The Lord of the Rings Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  },
+  {
+    "id": 120,
+    "title": "El señor de los anillos: La comunidad del anillo",
+    "year": 2001,
+    "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "country": "New Zealand",
+    "runtime": 178,
+    "rating": 8.4,
+    "leadActor": "Elijah Wood",
+    "saga": "The Lord of the Rings Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+  },
+  {
+    "id": 121,
+    "title": "El señor de los anillos: Las dos torres",
+    "year": 2002,
+    "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "country": "New Zealand",
+    "runtime": 179,
+    "rating": 8.4,
+    "leadActor": "Elijah Wood",
+    "saga": "The Lord of the Rings Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+  },
+  {
+    "id": 278,
+    "title": "Cadena perpetua",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Frank Darabont",
+    "country": "United States of America",
+    "runtime": 142,
+    "rating": 8.7,
+    "leadActor": "Tim Robbins",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+  },
+  {
+    "id": 424,
+    "title": "La lista de Schindler",
+    "year": 1993,
+    "genres": [
+      "Drama",
+      "Historia",
+      "Bélica"
+    ],
+    "director": "Steven Spielberg",
+    "country": "United States of America",
+    "runtime": 195,
+    "rating": 8.6,
+    "leadActor": "Liam Neeson",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+  },
+  {
+    "id": 769,
+    "title": "Uno de los nuestros",
+    "year": 1990,
+    "genres": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Martin Scorsese",
+    "country": "United States of America",
+    "runtime": 145,
+    "rating": 8.5,
+    "leadActor": "Robert De Niro",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+  },
+  {
+    "id": 497,
+    "title": "La milla verde",
+    "year": 1999,
+    "genres": [
+      "Fantasía",
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Frank Darabont",
+    "country": "United States of America",
+    "runtime": 189,
+    "rating": 8.5,
+    "leadActor": "Tom Hanks",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg"
+  },
+  {
+    "id": 4247,
+    "title": "El laberinto del fauno",
+    "year": 2006,
+    "genres": [
+      "Fantasía",
+      "Drama",
+      "Bélica"
+    ],
+    "director": "Guillermo del Toro",
+    "country": "Mexico",
+    "runtime": 118,
+    "rating": 7.8,
+    "leadActor": "Ivana Baquero",
+    "saga": null,
+    "image_url": "https://image.tmdb.org/t/p/w500/2fZFoB9W8DMC1aT1uYcW3x9n2cP.jpg"
+  },
+  {
+    "id": 98,
+    "title": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Acción",
+      "Drama",
+      "Aventura"
+    ],
+    "director": "Ridley Scott",
+    "country": "United States of America",
+    "runtime": 155,
+    "rating": 8.2,
+    "leadActor": "Russell Crowe",
+    "saga": "Gladiator Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+  },
+  {
+    "id": 603692,
+    "title": "John Wick: Chapter 4",
+    "year": 2023,
+    "genres": [
+      "Acción",
+      "Thriller",
+      "Crimen"
+    ],
+    "director": "Chad Stahelski",
+    "country": "United States of America",
+    "runtime": 170,
+    "rating": 7.7,
+    "leadActor": "Keanu Reeves",
+    "saga": "John Wick Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
+  },
+  {
+    "id": 674,
+    "title": "Harry Potter y la piedra filosofal",
+    "year": 2001,
+    "genres": [
+      "Aventura",
+      "Fantasía"
+    ],
+    "director": "Chris Columbus",
+    "country": "United Kingdom",
+    "runtime": 152,
+    "rating": 7.9,
+    "leadActor": "Daniel Radcliffe",
+    "saga": "Harry Potter Collection",
+    "image_url": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+  }
+]
